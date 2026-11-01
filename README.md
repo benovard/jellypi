@@ -3,6 +3,8 @@
 ### Overview
 Jellymatrix is a fork of [Spotipi](https://github.com/ryanwa18/spotipi) by ryanwa18. It displays the album artwork of whatever is currently playing on your Jellyfin server on an LED matrix attached to a Raspberry Pi.
 
+<img src="./images/preview.png" style="width:450px"/>
+
 ### Requirements
 * Raspberry Pi with an Adafruit RGB Matrix Bonnet or HAT. I suggest a Zero W or Zero 2 W due to low cost and ability to use WiFi.
 * A 32x32 or 64x64 LED matrix panel, properly powered
