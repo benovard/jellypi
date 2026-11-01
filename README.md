@@ -9,16 +9,18 @@ Jellymatrix is a fork of [Spotipi](https://github.com/ryanwa18/spotipi) by ryanw
 * A Jellyfin server on your network
 
 ### Getting Started
-* SSH to your Raspberry Pi and clone the repository:
+SSH to your Raspberry Pi and clone the repository:
 ```
 git clone https://github.com/benovard/jellymatrix.git
 cd jellymatrix
 ```
-* Install the software (installs and enables the jellymatrix and jellymatrix-client systemd services):
+Install the software (installs and enables the jellymatrix and jellymatrix-client systemd services):
 ```
-sudo bash setup.sh
+sudo ./setup.sh
 ```
-* Reboot when prompted.
+Follow the setup prompts.
+
+Reboot when prompted.
 
 ### Configure Jellyfin
 * In your Jellyfin dashboard, go to **API Keys** and generate a new key.
@@ -33,4 +35,4 @@ sudo bash setup.sh
 * **Everything looks fine but the server can't be reached:** the display loop polls your Jellyfin server once per second with a 5 second timeout, so an unreachable server degrades to the default image rather than a frozen display.
 
 ### Credits
-* [Spotipi](https://github.com/ryanwa18/spotipi) by ryanwa18 — the original Spotify-powered version of this project.
+[Spotipi](https://github.com/ryanwa18/spotipi) by ryanwa18 — the original Spotify-powered version of this project.

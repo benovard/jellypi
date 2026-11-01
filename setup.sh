@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Ensure packages are installed:"
-sudo apt-get install libopenjp2-7 python3-dbus
+sudo apt install libopenjp2-7 python3-dbus
 
 echo "Blacklist soundcard..."
 sudo touch /etc/modprobe.d/alsa-blacklist.conf
